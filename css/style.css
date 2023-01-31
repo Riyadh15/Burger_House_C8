@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    line-height: 1.7em;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alfa Slab One', cursive;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+font-family: 'Bebas Neue', cursive;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+.header{
+    width: 100%;
+    padding: 30px 0px;
+    background: url("../images/bg.png") center top  no-repeat;
+    background-size: cover;
+}
+.main-menu .logo{
+    margin: 15px 0px 0px;
+}
+.main-menu .text-right{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 20px 5px 0px;
+    color: #3d2514;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 0px 20px; 
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    transition: .7s;
+    color: #bf2222;
+}
+.banner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.inner-banner{
+    width: 100%;
+    margin: 140px 0px 0px;
+}
+.inner-banner h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+.inner-banner h5 span{
+    display: inline-block;
+    padding: 10px ;
+    border: 2px dashed #3d2514;
+    margin: 0px 0px 15px;
+}
+.inner-banner h1{
+    font-size: 100px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #fee8bb;
+}
+.inner-banner h3{
+    font-size: 60px;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #fee8bb;
+}
+.banner .img-fluid{
+    max-width: 750px;
+    height: auto;
+    margin: -172px 0px -75px -125px;
+}
+.features{
+    width: 100%;
+    margin: 60px auto;
+}
+.features .card{
+    margin: 0px 0px 35px;
+
+}
+.features .card h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 0px 0px;
+}
+.features .card h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.choose{
+    width: 100%;
+    padding: 20px 0px 80px;
+}
+.choose .title{
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+    
+
+}
+.choose .title h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+.choose .title h3 span{
+    padding: 10px;
+    margin: 0px 0px 15px;
+    background: #ffc045;
+    display: inline-block;
+}
+.choose .title h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+.choose .title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #3d2514; 
+}
+.choose-inner{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.choose-inner .img-fluid{
+    margin: 0px 0px 10px;
+}
+.choose-inner h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+.choose-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #3d2514; 
+}
+.choose-inner .btn-danger{
+    font-family: 'Alfa Slab One', cursive;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-radius: 0px ;
+    border: 1px solid #bf2222;
+    color: #fff ;
+    background: #bf2222;   
+    margin: 15px 0px 0px;
+}
+.choose-inner .btn-danger:hover{
+    transition: 1s;
+    border: 1px solid #bf2222;
+    color: #bf2222;
+    background: transparent;
+}
