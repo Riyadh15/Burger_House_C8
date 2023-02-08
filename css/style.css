@@ -205,3 +205,197 @@ a:hover{
     color: #bf2222;
     background: transparent;
 }
+.slider{
+    width: 100%;
+    padding: 80px 0px;
+}
+.slider .owl-carousel{
+    width: 100%;
+    padding: 40px 30px;
+    box-shadow: 0px 4px 10px #ccc;
+}
+.slider .owl-carousel .item h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d3d3d;
+    letter-spacing: 1px;
+    margin: 30px 0px 0px;
+
+}
+.slider .owl-carousel .item p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #3d2514;
+    margin: 30px 0px; 
+}
+.slider .owl-carousel .item h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+.slider .owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 15px;
+}
+.slider .owl-theme .owl-dots{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    
+}
+.slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots 
+    .owl-dot:hover span{
+        background: #ffc045;
+}
+.contact-section{
+    width:100%;
+    padding: 80px 0px 110px;
+    background: url("../images/Lbg.png") center top no-repeat;
+    background-size: cover;
+}
+.contact-section .title{
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+}
+.contact-section .title h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    margin: 30px 0px 0px;
+} 
+.contact-section .title h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+.contact-section .main-form{
+
+
+}
+.contact-section .main-form .form-control{
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px;
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight: 400;   
+    color: #000;
+    border: .5px solid #3d2514;
+    border-radius: 5px; 
+}
+.contact-section .main-form .form-control:focus{
+   box-shadow: 0 0 0 .10rem #3d2514; ;
+}
+.contact-section .main-form .btn-danger{
+    display: block;
+   font-family: 'Alfa Slab One', cursive;
+   padding: 15px;
+   font-size: 18px;
+   letter-spacing: 2px;
+   background: #bf2222;
+   border: 1px solid #bf2222;
+   text-transform: uppercase;
+   font-weight: 400;
+   border-radius: 5px;
+   transition: 1s;
+}
+.contact-section .main-form .btn-danger:hover{
+    border: 1px solid #bf2222;
+    background: transparent;
+    color: #bf2222;
+}
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.main-footer{
+    width: 100%;
+    margin: 10px;
+    padding: 80px 25px 10px;
+    background: url("../images/footerbg.png") center top no-repeat;
+    background-size:cover ;
+    box-shadow: box-shadow: 20px 10px 10px #black;
+
+}
+.main-footer .f-logo{
+    margin: 0px 0px 30px;
+}
+.f-text{
+    font-size: 16px;
+    color: #fff;
+    margin: 0px 0px 110px;
+}
+.info{
+    display: block;
+}
+.info li{
+    font-family: 'Bebas Neue', cursive;
+    display: block;
+    list-style: none;
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.info li img{
+    margin: 0px 20px 0px 0px;
+}
+.copyrights{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer .copyrights a{
+    text-decoration: none;
+    color: #CDCDCD;
+    
+}
+
+.social-icons{
+    width: 100%;
+    padding: 0px;
+    text-align: right;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons li a{
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    line-height: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    transition:1s;
+}
+.social-icons li a:hover{
+    background: whitesmoke;
+    line-height: 40px;
+    color: #3d2514;
+    border: 1px solid #fff;
+}
